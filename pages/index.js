@@ -1,13 +1,21 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <div>
-      <head>
+      <Head>
         <title>Hulu 3.0</title>
-      </head>
-      <h1>Hulu</h1>
+      </Head>
+
+      {/* header */}
+      <Header />
+
+      {/* nav */}
+
+
+      {/* results */}
     </div>
   );
 }
