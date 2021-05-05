@@ -1,7 +1,8 @@
-const HeaderItem = () => {
+const HeaderItem = ({ Icon, title }) => {
     return (
-        <div>
-
+        <div className='group flex flex-col items-center cursor-pointer w-12'>
+            <Icon className='h-8 mb-1 ' />
+            <p className='opacity-1 group-hover:opacity-100 tracking-widest'>{title}</p>
         </div>
     );
 };
