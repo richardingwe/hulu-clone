@@ -1,3 +1,5 @@
+import Thumbnail from './Thumbnail';
+
 const Results = ({ results }) => {
     return (
         <div>
